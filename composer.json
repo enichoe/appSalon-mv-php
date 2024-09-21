@@ -1,0 +1,23 @@
+{
+    "name": "enich/app-salon_php_mvc_js_sass",
+    "description": "PROYECTO",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controller\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\":"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "ERNESTO NICHO",
+            "email": "enichoe@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
