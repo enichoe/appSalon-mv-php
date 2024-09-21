@@ -118,7 +118,7 @@ function mostarServicios(servicios){
 
         const precioServicio=document.createElement('P');
         precioServicio.classList.add('precio-servicio');
-        precioServicio.textContent=`$ ${precio}`;
+        precioServicio.textContent=`S/. ${precio}`;
 
         const servicioDiv=document.createElement('DIV');
         servicioDiv.classList.add('servicio');
